@@ -32,12 +32,36 @@ class BasicBlock(nn.Module):
         #   conv3x3(in_c, out_c, stride) -> BN -> ReLU
         #   conv3x3(out_c, out_c)        -> BN
         # then add the (possibly downsampled) identity, then ReLU.
-        raise NotImplementedError("Level 1: implement BasicBlock")
+        # raise NotImplementedError("Level 1: implement BasicBlock")
+
+        # Residual branch F(x): two 3x3 convs.
+        # The spatial down-sampling (stride) happens on the FIRST conv.
+        self.conv1 = conv3x3(in_c, out_c, stride)
+        self.bn1 = nn.BatchNorm2d(out_c)
+        self.relu = nn.ReLU(inplace=True)
+
+        self.conv2 = conv3x3(out_c, out_c)  # stride=1, keeps the resolution
+        self.bn2 = nn.BatchNorm2d(out_c)
+
+        # Identity-path projection (W_s). None when dims already match
+        self.downsample = downsample
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
-        identity = x
+        identity = x    # keep the input for the skip connection
         # TODO: residual branch + skip + ReLU
-        raise NotImplementedError
+        # raise NotImplementedError
+
+        # F(x): conv -> BN -> ReLU -> conv -> BN
+        out = self.relu(self.bn1(self.conv1(x)))
+        out = self.bn2(self.conv2(out))
+
+        # If channels/resolution differ, project the identity: W_s * x
+        if self.downsample is not None: 
+            identity = self.downsample(x)
+
+        out += identity         # y = F(x) + x  (or F(x) + W_s x)
+        out = self.relu(out)    # z = ReLU(y) <- ReLU AFTER the addition
+        return out
 
 
 class Bottleneck(nn.Module):
@@ -50,10 +74,37 @@ class Bottleneck(nn.Module):
         #   conv3x3(mid_c, mid_c, stride)   -> BN -> ReLU
         #   conv1x1(mid_c, mid_c*expansion) -> BN
         # plus skip and ReLU.
-        raise NotImplementedError("Level 1: implement Bottleneck")
+        # raise NotImplementedError("Level 1: implement Bottleneck")
+
+        out_c = mid_c * self.expansion      # final challengs = 4x the bottleneck width
+
+        self.conv1 = conv1x1(in_c, mid_c)   # reduce features (stride here)
+        self.bn1 = nn.BatchNorm2d(mid_c)
+
+        self.conv2 = conv3x3(mid_c, mid_c, stride)      # extract features (stride here)
+        self.bn2 = nn.BatchNorm2d(mid_c)
+
+        self.conv3 = conv1x1(mid_c, out_c)              # expand channels (x4)
+        self.bn3 = nn.BatchNorm2d(out_c)
+
+        self.relu = nn.ReLU(inplace=True)
+        self.downsample = downsample
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
-        raise NotImplementedError
+        # raise NotImplementedError
+        identity = x
+
+        # F(x): 1x1 -> 3x3 -> 1x1, ReLU after the first two BNs only
+        out = self.relu(self.bn1(self.conv1(x)))
+        out = self.relu(self.bn2(self.conv2(out)))
+        out = self.bn3(self.conv3(out)) # NO ReLU before the addition
+
+        if self.downsample is not None:
+            identity = self.downsample(x) 
+        
+        out += identity
+        out = self.relu(out)    # final ReLU after skip
+        return out
 
 
 class ResNet(nn.Module):
@@ -83,7 +134,30 @@ class ResNet(nn.Module):
         # TODO: build a stage of ``blocks`` residual blocks. The first block
         # may need a 1x1 downsample on the identity if stride != 1 or
         # in_c != planes * block.expansion.
-        raise NotImplementedError("Level 1: implement _make_layer")
+        # raise NotImplementedError("Level 1: implement _make_layer")
+
+        downsample = None 
+        out_c = planes * block.expansion
+
+        # The identity needs a projection (W_s) only when the shape changes:
+        #   - stride != 1           -> spatial size differs
+        #   - self.in_c != out_c    -> channel count differs
+        if stride != 1 or self.in_c != out_c:
+            downsample = nn.Sequential(
+                conv1x1(self.in_c, out_c, stride),  # 1x1 conv = the W_s projection
+                nn.BatchNorm2d(out_c),
+            )
+        
+        layers = []
+        # First block carries the stride and the (possible) downsampel.
+        layers.append(block(self.in_c, planes, stride, downsample))
+        self.in_c = out_c   # update running channel count for the next blocks
+
+        # Remaining blocks: stride=1, no downsample (shapes already match).
+        for _ in range(1, blocks):
+            layers.append(block(self.in_c, planes, stride=1))
+
+        return nn.Sequential(*layers)
 
     def _init_weights(self) -> None:
         for m in self.modules():
