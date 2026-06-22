@@ -21,11 +21,22 @@ class PatchEmbed(nn.Module):
         super().__init__()
         self.num_patches = (img_size // patch_size) ** 2
         # TODO: a single Conv2d with kernel_size=stride=patch_size, out=dim.
-        raise NotImplementedError("Level 2: implement PatchEmbed")
+        # raise NotImplementedError("Level 2: implement PatchEmbed")
+
+        # A Conv2d with kernel = stride = patch_size slices the image into
+        # NON-overlapping patches and linearly projects each one to a dim-vector
+        # This is exactly "flatten each patch then Linear", folded into one conv.
+        self.proj = nn.Conv2d(in_c, dim, kernel_size=patch_size, stride=patch_size)
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
         # Output shape: (B, num_patches, dim)
-        raise NotImplementedError
+        # raise NotImplementedError
+
+        # x: (B, 3, 224, 224)
+        x = self.proj(x)        # (B, dim, 14, 14) <- 224/16 = 14 per side
+        x = x.flatten(2)        # (B, dim, 196)    <- merge the 14x14 grid
+        x = x.transpose(1, 2)   # (B, 196, dim)    <- tokens-first layout
+        return x
 
 
 class MultiHeadSelfAttention(nn.Module):
@@ -33,12 +44,18 @@ class MultiHeadSelfAttention(nn.Module):
         super().__init__()
         assert dim % num_heads == 0
         self.num_heads = num_heads
-        self.head_dim = dim // num_heads
-        self.scale = self.head_dim ** -0.5
+        self.head_dim = dim // num_heads        # 384 / 6 = 64
+        self.scale = self.head_dim ** -0.5      # 1 / sqrt(64)
 
         # TODO: qkv = Linear(dim, dim*3, bias=True); proj = Linear(dim, dim);
         # attn_drop = Dropout(attn_drop); proj_drop = Dropout(proj_drop).
-        raise NotImplementedError("Level 2: implement MultiHeadSelfAttention")
+        # raise NotImplementedError("Level 2: implement MultiHeadSelfAttention")
+
+        # One Linear produces Q, K, V at once (dim -> 3*dim), then we split
+        self.qkv = nn.Linear(dim, dim*3, bias=True)
+        self.proj = nn.Linear(dim, dim)                     # mixes the heads back together
+        self.attn_drop = nn.Dropout(attn_drop)
+        self.proj_drop = nn.Dropout(proj_drop)
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
         # x: (B, N, D)
@@ -46,7 +63,29 @@ class MultiHeadSelfAttention(nn.Module):
         # 2) attention = softmax(q @ k^T * scale)
         # 3) out = attention @ v   -> reshape back to (B, N, D)
         # 4) proj + proj_drop
-        raise NotImplementedError
+        # raise NotImplementedError
+
+        B, N, D = x.shape               # e.g. (B, 197, 384)
+
+        # 1) project to qkv, then split into (3, B, heads, N, head_dim)
+        qkv = self.qkv(x)                                                   # (B, N, 3D)
+        qkv = qkv.reshape(B, N, 3, self.num_heads, self.head_dim)           # (B, N, 3, h, hd)
+        qkv = qkv.permute(2, 0, 3, 1, 4)                                    # (3, B, h, N, hd)
+        q, k, v = qkv[0], qkv[1], qkv[2]                                    # each (B, h, N, hd)
+
+        # 2) sclaed dot-product attention: softmax(QK^T / sqrt(hd))
+        attn = (q @ k.transpose(-2, -1)) * self.scale                       # (B, h, N, hd)
+        attn = attn.softmax(dim=-1)
+        attn = self.attn_drop(attn)
+
+        # 3) weighted sum of values, then merge heads back
+        out = attn @ v                                                      # (B, h, N, hd)
+        out = out.transpose(1, 2).reshape(B, N, D)                          # (B, N, D)
+
+        # 4) output projection + dropout
+        out = self.proj(out)
+        out = self.proj_drop(out)
+        return out
 
 
 class TransformerBlock(nn.Module):
@@ -69,7 +108,12 @@ class TransformerBlock(nn.Module):
         #   x = x + attn(norm1(x))
         #   x = x + mlp(norm2(x))
         # TODO
-        raise NotImplementedError("Level 2: implement TransformerBlock.forward")
+        # raise NotImplementedError("Level 2: implement TransformerBlock.forward")
+
+        # Pre-norm: LayerNorm is applied BEFORE attn / mlp, inside the residual branch
+        x = x + self.attn(self.norm1(x))        # attention sub-layer
+        x = x + self.mlp(self.norm2(x))         # feed-forward sub-layer
+        return x
 
 
 class ViT(nn.Module):
