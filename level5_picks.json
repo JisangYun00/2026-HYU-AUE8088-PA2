@@ -1,0 +1,7006 @@
+{
+  "strategy": "Set A\uc758 \ud074\ub798\uc2a4 \ubd84\ud3ec\ub97c \uae30\ubc18\uc73c\ub85c \ud76c\uadc0 \ud074\ub798\uc2a4(snowy/dawn-dusk/residential)\uc5d0 \ub192\uc740 \uac00\uc911\uce58\ub97c \ubd80\uc5ec\ud558\uace0, \uba40\ud2f0\ud0dc\uc2a4\ud06c Entropy \ubd88\ud655\uc2e4\uc131\uc744 \uacf1\ud55c 1\ucc28 \uc810\uc218\ub85c \uc0c1\uc704 3,000\uc7a5\uc744 \ucd94\ub9b0 \ub4a4, ResNet backbone feature \uacf5\uac04\uc5d0\uc11c K-Center Greedy\ub97c \uc801\uc6a9\ud558\uc5ec \uc2dc\uac01\uc801 \ub2e4\uc591\uc131\uc744 \ubcf4\uc7a5\ud558\ub294 \ucd5c\uc885 1,000\uc7a5\uc744 \uc120\ud0dd\ud558\uc600\ub2e4.",
+  "num_picks": 1000,
+  "picks": [
+    {
+      "image_id": "27b3b7a0-7586c958",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 8.066
+    },
+    {
+      "image_id": "402c3068-712343e1",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 1,
+      "s1_score": 3.0774
+    },
+    {
+      "image_id": "506b3495-09d0f9ee",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.3263
+    },
+    {
+      "image_id": "3e2e582d-fad4a96a",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 2.401
+    },
+    {
+      "image_id": "53b19679-c0ad8c22",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.349
+    },
+    {
+      "image_id": "55de4228-850c0081",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.1971
+    },
+    {
+      "image_id": "a71b8f81-5a238059",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 1.9999
+    },
+    {
+      "image_id": "9b399292-1bcaeb88",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 1,
+      "s1_score": 2.0054
+    },
+    {
+      "image_id": "afc1e23b-57a3483b",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 3.2963
+    },
+    {
+      "image_id": "a7bb8744-a45606fc",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.7407
+    },
+    {
+      "image_id": "a8468072-6bc6dc8a",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.2579
+    },
+    {
+      "image_id": "987f7120-6793bb6a",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 1,
+      "s1_score": 2.7391
+    },
+    {
+      "image_id": "4d194c53-4fcf8b81",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.2995
+    },
+    {
+      "image_id": "45da81f9-20bc10e2",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 1,
+      "s1_score": 2.2599
+    },
+    {
+      "image_id": "8410925c-9ac8b0c9",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.7335
+    },
+    {
+      "image_id": "76cb61f8-882c496d",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.009
+    },
+    {
+      "image_id": "2bdc0700-63fbb2c5",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.1336
+    },
+    {
+      "image_id": "7b944fe5-8421840f",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.0277
+    },
+    {
+      "image_id": "9d2c870a-a0b6ac72",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.07
+    },
+    {
+      "image_id": "15ae7b39-b1b74a10",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.5641
+    },
+    {
+      "image_id": "3f019a9f-82fc4116",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.7237
+    },
+    {
+      "image_id": "4ee9b1f3-e895efc1",
+      "weather": 5,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.0383
+    },
+    {
+      "image_id": "3d85d245-8fe95fc9",
+      "weather": 5,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.7993
+    },
+    {
+      "image_id": "60d69037-efb45ad8",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.4068
+    },
+    {
+      "image_id": "74b3fb05-ac488601",
+      "weather": 5,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.1731
+    },
+    {
+      "image_id": "377bf3a5-08c6654e",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.1644
+    },
+    {
+      "image_id": "467008a0-a754c564",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.2582
+    },
+    {
+      "image_id": "494cd7c0-934e9597",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.173
+    },
+    {
+      "image_id": "3cb86f14-3dad586c",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.0579
+    },
+    {
+      "image_id": "0b669851-c6571777",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.3338
+    },
+    {
+      "image_id": "9f051dba-890acb90",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.1128
+    },
+    {
+      "image_id": "38fc3ced-dcd835b6",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.9657
+    },
+    {
+      "image_id": "6c5eb9b0-a118bc02",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.3539
+    },
+    {
+      "image_id": "703d912f-840e5963",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.3632
+    },
+    {
+      "image_id": "6c08119d-01242672",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 1,
+      "s1_score": 2.0818
+    },
+    {
+      "image_id": "298b272b-77a4fc82",
+      "weather": 5,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.9496
+    },
+    {
+      "image_id": "0e90790e-123f77f6",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.1079
+    },
+    {
+      "image_id": "36c96705-e2bbe71a",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 1.9947
+    },
+    {
+      "image_id": "7688f1b8-e12a5eb6",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.5448
+    },
+    {
+      "image_id": "a65b5eac-e8f1f772",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.7326
+    },
+    {
+      "image_id": "10a99d63-6b137451",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 1,
+      "s1_score": 3.0945
+    },
+    {
+      "image_id": "57bcc3c9-74343c02",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.753
+    },
+    {
+      "image_id": "a381a874-1643c45a",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.091
+    },
+    {
+      "image_id": "5f8adca3-98842c33",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.2358
+    },
+    {
+      "image_id": "73a75b7c-9b11b4cc",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 3.328
+    },
+    {
+      "image_id": "9fc82baa-98fc0ac7",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.9187
+    },
+    {
+      "image_id": "97b65dd9-d67c4b45",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.0843
+    },
+    {
+      "image_id": "95ff4937-d4bca42a",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.1067
+    },
+    {
+      "image_id": "0e653c17-0df33c8d",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 3.7223
+    },
+    {
+      "image_id": "5de021bc-76c7b789",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 1,
+      "s1_score": 2.3516
+    },
+    {
+      "image_id": "70756bb2-c844187a",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.1796
+    },
+    {
+      "image_id": "850a0f15-8fbe718b",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.8292
+    },
+    {
+      "image_id": "43b8514e-36e14e3d",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 5.9626
+    },
+    {
+      "image_id": "1290804d-a004f59d",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 1,
+      "s1_score": 3.3717
+    },
+    {
+      "image_id": "1527851b-195f2437",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 2.9352
+    },
+    {
+      "image_id": "b12992c7-905a389e",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.1518
+    },
+    {
+      "image_id": "1113ee7d-44d2eddc",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.7658
+    },
+    {
+      "image_id": "0282c435-23183908",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 3.0439
+    },
+    {
+      "image_id": "b19b87e3-f576fec3",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.4997
+    },
+    {
+      "image_id": "8c3e2d5c-f50b5bae",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.594
+    },
+    {
+      "image_id": "2c4e4802-2a30ac41",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.0288
+    },
+    {
+      "image_id": "39960725-4488360e",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.6855
+    },
+    {
+      "image_id": "3089bf15-f20cf8f2",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 1.9957
+    },
+    {
+      "image_id": "0f3eb2eb-ba8591e8",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.2186
+    },
+    {
+      "image_id": "076399f2-fb3e745b",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.6894
+    },
+    {
+      "image_id": "66950200-802fb67a",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 4.0504
+    },
+    {
+      "image_id": "4daa286f-f8d2627a",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.6164
+    },
+    {
+      "image_id": "8cc99f48-ca215966",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.7981
+    },
+    {
+      "image_id": "21fd3bf5-1b0b302d",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.4557
+    },
+    {
+      "image_id": "60e78544-b3b43de3",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.1821
+    },
+    {
+      "image_id": "3d0e7e0a-9f15508f",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.1443
+    },
+    {
+      "image_id": "a67c0c9a-776a8269",
+      "weather": 5,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 4.5789
+    },
+    {
+      "image_id": "46a25544-ea6e54fa",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.1036
+    },
+    {
+      "image_id": "484e6acf-a09ba00a",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 4.0205
+    },
+    {
+      "image_id": "97c43042-cb1aba07",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.9877
+    },
+    {
+      "image_id": "5e874875-3bb43753",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.1039
+    },
+    {
+      "image_id": "0d13ae3d-f033a349",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.6345
+    },
+    {
+      "image_id": "02346f91-87969c22",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.5845
+    },
+    {
+      "image_id": "4c4101d9-56dac535",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 1.9776
+    },
+    {
+      "image_id": "2b923350-391b3f53",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.449
+    },
+    {
+      "image_id": "1c1ea16f-f3b251db",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.1425
+    },
+    {
+      "image_id": "a3ca037c-98c66c3f",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.5565
+    },
+    {
+      "image_id": "47019a35-0c916e33",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 1,
+      "s1_score": 3.3408
+    },
+    {
+      "image_id": "2f30d082-ae751abd",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 4.8578
+    },
+    {
+      "image_id": "82124e5e-634bb8d0",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.2891
+    },
+    {
+      "image_id": "4c6ddf08-f7894d5b",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.4918
+    },
+    {
+      "image_id": "a060c4ea-84e32256",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.3428
+    },
+    {
+      "image_id": "8a6171db-8ca5bf5f",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.2685
+    },
+    {
+      "image_id": "6aaf2448-afd81701",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 3.7033
+    },
+    {
+      "image_id": "90afda7c-9720e42b",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.1966
+    },
+    {
+      "image_id": "8bffba2a-09f73411",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.3334
+    },
+    {
+      "image_id": "73b48297-05856196",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.7501
+    },
+    {
+      "image_id": "72a5e8f7-16a97ede",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.2248
+    },
+    {
+      "image_id": "598432d9-4295f48e",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.4527
+    },
+    {
+      "image_id": "56418a24-6e11b5a9",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.2775
+    },
+    {
+      "image_id": "6d18b56d-5795fa72",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.5663
+    },
+    {
+      "image_id": "5250cae5-89744ede",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.7128
+    },
+    {
+      "image_id": "1f864b3f-44e20190",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 1.9792
+    },
+    {
+      "image_id": "1264396f-eb155aab",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.8038
+    },
+    {
+      "image_id": "4b808abe-9f07df4e",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 1,
+      "s1_score": 2.0003
+    },
+    {
+      "image_id": "1dea280f-819c66ba",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 4.453
+    },
+    {
+      "image_id": "52af79b3-d6d1bb40",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.2032
+    },
+    {
+      "image_id": "ae8bf0cb-94d81e15",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.4363
+    },
+    {
+      "image_id": "7e7870a0-d74f8c6f",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 1.9992
+    },
+    {
+      "image_id": "173a506d-7e9b2433",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 3.2712
+    },
+    {
+      "image_id": "4ee28685-ac80ab2c",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 3.0266
+    },
+    {
+      "image_id": "451b83ef-84bff0d8",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.0489
+    },
+    {
+      "image_id": "0252f2b5-2e69185a",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 3.0413
+    },
+    {
+      "image_id": "a58339d8-d86d8cb7",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 5.0573
+    },
+    {
+      "image_id": "88f41c3c-74bcf3c7",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.757
+    },
+    {
+      "image_id": "760dbea1-134c1864",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.7209
+    },
+    {
+      "image_id": "803be978-b21908ca",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.3333
+    },
+    {
+      "image_id": "9a9e4916-8ea891b3",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.4411
+    },
+    {
+      "image_id": "9f902bea-d35bf4c7",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.0102
+    },
+    {
+      "image_id": "666c8980-6b3f2b04",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.0787
+    },
+    {
+      "image_id": "2dd96c44-87d9febf",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.1906
+    },
+    {
+      "image_id": "53751d8c-edec5c90",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.9534
+    },
+    {
+      "image_id": "ac8705e7-d3270b66",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 1,
+      "s1_score": 2.4435
+    },
+    {
+      "image_id": "0714456d-f947f605",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.044
+    },
+    {
+      "image_id": "360525fb-36cf20ff",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 1,
+      "s1_score": 2.6822
+    },
+    {
+      "image_id": "7e9d3327-76f2f118",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.4129
+    },
+    {
+      "image_id": "885cfcf9-a504fcab",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.061
+    },
+    {
+      "image_id": "0a4773b8-1f7d3939",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.6092
+    },
+    {
+      "image_id": "9c953943-807d1cb9",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.3714
+    },
+    {
+      "image_id": "450436b3-b322c719",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 3.7649
+    },
+    {
+      "image_id": "05e5b952-73bfedb3",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.2585
+    },
+    {
+      "image_id": "4db74657-76080993",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.1321
+    },
+    {
+      "image_id": "0a07abbf-5eeee19d",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 3.0286
+    },
+    {
+      "image_id": "b0df61c0-2ef8c8de",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.3241
+    },
+    {
+      "image_id": "06b49335-a4533ec7",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.4468
+    },
+    {
+      "image_id": "567b4b61-8e4caf25",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.1058
+    },
+    {
+      "image_id": "5dd2f48c-6977c3c0",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.2908
+    },
+    {
+      "image_id": "748bfa8c-0c923bcc",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.2304
+    },
+    {
+      "image_id": "99869f9a-4493b829",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 1,
+      "s1_score": 3.7714
+    },
+    {
+      "image_id": "a5ffb322-aac4f8ad",
+      "weather": 5,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.2137
+    },
+    {
+      "image_id": "9b0113bb-21d26fef",
+      "weather": 5,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.912
+    },
+    {
+      "image_id": "6a3a997e-9e5d5581",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 5.5668
+    },
+    {
+      "image_id": "7ec63600-17964d72",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.2495
+    },
+    {
+      "image_id": "9ef9bc6b-331685b7",
+      "weather": 5,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.3149
+    },
+    {
+      "image_id": "2a74b9ed-98b5f91e",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.8574
+    },
+    {
+      "image_id": "7da40adb-66f4a069",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.1523
+    },
+    {
+      "image_id": "9e63770c-07d136d7",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.7249
+    },
+    {
+      "image_id": "b127cbe6-4db652a5",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.3286
+    },
+    {
+      "image_id": "3c46f992-38f0cb98",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.9463
+    },
+    {
+      "image_id": "4b01a9f2-a5c49c2d",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.4666
+    },
+    {
+      "image_id": "4b7ed10b-ad9b153e",
+      "weather": 5,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.0906
+    },
+    {
+      "image_id": "ab2d2309-a62a00d1",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.8104
+    },
+    {
+      "image_id": "23a3d4cb-2e85c856",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 1.9695
+    },
+    {
+      "image_id": "474d4e3a-ea7c256c",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.0049
+    },
+    {
+      "image_id": "37286d43-8354809b",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.3554
+    },
+    {
+      "image_id": "1e1ff90e-51151c15",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.3398
+    },
+    {
+      "image_id": "377333f6-5a9c89e9",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.3258
+    },
+    {
+      "image_id": "43d4a202-dabd84e9",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 1.9862
+    },
+    {
+      "image_id": "773c53f2-d8e74dac",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.2408
+    },
+    {
+      "image_id": "4e5c39a4-bd403eb8",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.8907
+    },
+    {
+      "image_id": "81eb4852-76bb8640",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.0651
+    },
+    {
+      "image_id": "93d81d3e-7451f8a7",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.2026
+    },
+    {
+      "image_id": "43486ce4-9e00bd4c",
+      "weather": 5,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.9185
+    },
+    {
+      "image_id": "0ad67e35-cc83d0f5",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.7481
+    },
+    {
+      "image_id": "a0d78f74-145bf40e",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.7888
+    },
+    {
+      "image_id": "4cdef661-e949e22b",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 4.6988
+    },
+    {
+      "image_id": "5f0092e7-f5a7c61c",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.3731
+    },
+    {
+      "image_id": "38b272c8-762b4751",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.6845
+    },
+    {
+      "image_id": "4f45d5ce-d87a28f1",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.3881
+    },
+    {
+      "image_id": "4bec6638-ae1a1c1e",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.7358
+    },
+    {
+      "image_id": "50f67560-f40cf207",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.7001
+    },
+    {
+      "image_id": "85ebbf3c-a2c5f408",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.0526
+    },
+    {
+      "image_id": "9db344c0-ba0237ec",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.0037
+    },
+    {
+      "image_id": "90ec7709-f3fc17b6",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.8729
+    },
+    {
+      "image_id": "605434f1-03d938f5",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.2037
+    },
+    {
+      "image_id": "8ae20231-716a505d",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.6829
+    },
+    {
+      "image_id": "7ed398b9-04f6f9d2",
+      "weather": 5,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 4.8006
+    },
+    {
+      "image_id": "4794d81d-608d2396",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 4.0816
+    },
+    {
+      "image_id": "77d72c41-451e2d12",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.6444
+    },
+    {
+      "image_id": "40f8ebd3-4a74ba02",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.4892
+    },
+    {
+      "image_id": "6c579b9e-9f10b6cc",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.5763
+    },
+    {
+      "image_id": "5bef0508-8911aaf8",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.5012
+    },
+    {
+      "image_id": "71871a15-07bd99a8",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.2676
+    },
+    {
+      "image_id": "2c7b30b0-b2f2fc50",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.6277
+    },
+    {
+      "image_id": "3aed4a89-05a4a181",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.0321
+    },
+    {
+      "image_id": "54900072-c4c34280",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.345
+    },
+    {
+      "image_id": "1d2552a6-622aa824",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 3.2666
+    },
+    {
+      "image_id": "76c0c12a-4dd339cf",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.6243
+    },
+    {
+      "image_id": "4147ffb6-1a2d362c",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.3976
+    },
+    {
+      "image_id": "16a6b783-92515ad8",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.1167
+    },
+    {
+      "image_id": "6f6f96df-2879e6f7",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.7844
+    },
+    {
+      "image_id": "2047a0cd-f9a5aa14",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.082
+    },
+    {
+      "image_id": "b0da8564-8576eeb1",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.3705
+    },
+    {
+      "image_id": "b102b649-31129ee6",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.2428
+    },
+    {
+      "image_id": "8e9e6281-6188e39e",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.3654
+    },
+    {
+      "image_id": "98e34ad2-1a8c6b67",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.9906
+    },
+    {
+      "image_id": "4bfd6127-e65de1b4",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.0522
+    },
+    {
+      "image_id": "ad72661a-0a669fae",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 4.6654
+    },
+    {
+      "image_id": "02346f91-27a6b98b",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.4804
+    },
+    {
+      "image_id": "3a2c9062-0cb2922f",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.2984
+    },
+    {
+      "image_id": "ae00c7f0-1e36feef",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.8783
+    },
+    {
+      "image_id": "43407e86-b7a933e4",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.7268
+    },
+    {
+      "image_id": "9e57b475-df3f3804",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.731
+    },
+    {
+      "image_id": "096d1ccc-bd6ca999",
+      "weather": 5,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.0798
+    },
+    {
+      "image_id": "2105466b-78c8ad0b",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.8001
+    },
+    {
+      "image_id": "4ef0b323-48a566b1",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.341
+    },
+    {
+      "image_id": "5ce220fa-396d3d3c",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.57
+    },
+    {
+      "image_id": "9112b82b-ad58c502",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.1248
+    },
+    {
+      "image_id": "59156a5c-08636483",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.7288
+    },
+    {
+      "image_id": "80ed17ad-53c30e66",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.2556
+    },
+    {
+      "image_id": "6f688645-3bc77c87",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.8135
+    },
+    {
+      "image_id": "69118933-f4d21a66",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.503
+    },
+    {
+      "image_id": "68d1f0a4-2e838d5f",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.1493
+    },
+    {
+      "image_id": "4801ed72-682a628b",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 4.3342
+    },
+    {
+      "image_id": "74d079ac-2550203d",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.2565
+    },
+    {
+      "image_id": "af10e54d-b4ce1028",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.2232
+    },
+    {
+      "image_id": "4daa286f-80b97570",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 3.6561
+    },
+    {
+      "image_id": "0ac3cbf4-a764f88c",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 5.4308
+    },
+    {
+      "image_id": "1854cb9e-f78a94e5",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.4048
+    },
+    {
+      "image_id": "9d562bf8-aec98d56",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 3.6313
+    },
+    {
+      "image_id": "150c0f61-39d07de7",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.4193
+    },
+    {
+      "image_id": "15345d9b-0162432e",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.0066
+    },
+    {
+      "image_id": "1dcbdf3a-7d747c0d",
+      "weather": 5,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.912
+    },
+    {
+      "image_id": "7944ae58-9d45224b",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.0939
+    },
+    {
+      "image_id": "71b93a12-e5ac134c",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 4.8183
+    },
+    {
+      "image_id": "278f9663-4f302720",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.0474
+    },
+    {
+      "image_id": "7660edb0-2589a638",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 3.7201
+    },
+    {
+      "image_id": "3cf2e47b-27e9e3f5",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.5642
+    },
+    {
+      "image_id": "336d2e6a-8365222d",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.5462
+    },
+    {
+      "image_id": "64b3f01b-fd90b59b",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.5825
+    },
+    {
+      "image_id": "ac033a32-49388c95",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.433
+    },
+    {
+      "image_id": "b007edea-158f4588",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.3485
+    },
+    {
+      "image_id": "37d66c3d-a19f79a1",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 4.231
+    },
+    {
+      "image_id": "8815c419-2186313e",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.4209
+    },
+    {
+      "image_id": "715e129e-5b1c2e10",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.2545
+    },
+    {
+      "image_id": "342cf91d-e94af5a4",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.4263
+    },
+    {
+      "image_id": "1710645f-e6d0c9c8",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.1165
+    },
+    {
+      "image_id": "1b7f130c-f5b78906",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 3.0659
+    },
+    {
+      "image_id": "5e26f49d-1373a30f",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.5478
+    },
+    {
+      "image_id": "5147c4f6-d68e56ea",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.1276
+    },
+    {
+      "image_id": "88a20e96-17428a54",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.0656
+    },
+    {
+      "image_id": "77406c23-842f73cd",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 3.0892
+    },
+    {
+      "image_id": "8e899c30-9a54d277",
+      "weather": 5,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.4672
+    },
+    {
+      "image_id": "abfa6816-8fd04b81",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.2038
+    },
+    {
+      "image_id": "66f05057-7f59f399",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.5299
+    },
+    {
+      "image_id": "75605fe4-4fc94634",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.6423
+    },
+    {
+      "image_id": "1aa37c12-fcc137cc",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 1.9807
+    },
+    {
+      "image_id": "4f71573b-bf5c117f",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.5888
+    },
+    {
+      "image_id": "9cdcbc9b-89f90688",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.0051
+    },
+    {
+      "image_id": "57671c58-ff8f739c",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 4.1859
+    },
+    {
+      "image_id": "5b768991-e6fbe336",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.3776
+    },
+    {
+      "image_id": "08d0f0fe-55165a5e",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.5821
+    },
+    {
+      "image_id": "7eb83c30-ba632426",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.0885
+    },
+    {
+      "image_id": "3ddcd7aa-8f6d1971",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 1,
+      "s1_score": 2.2254
+    },
+    {
+      "image_id": "87a73b0c-52c1ed00",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.2417
+    },
+    {
+      "image_id": "8c4da6d9-051b468c",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.2184
+    },
+    {
+      "image_id": "92f70262-17fbb41b",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.7616
+    },
+    {
+      "image_id": "2b2ae655-fcb3903c",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.6331
+    },
+    {
+      "image_id": "62051da6-86e414ee",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.4072
+    },
+    {
+      "image_id": "a06a4b0e-c524af0a",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.018
+    },
+    {
+      "image_id": "12dab23b-c8087aa8",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.0291
+    },
+    {
+      "image_id": "545368ae-9d1d8044",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.6254
+    },
+    {
+      "image_id": "1abd6590-820d7f31",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.6291
+    },
+    {
+      "image_id": "49325591-b1317570",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.5215
+    },
+    {
+      "image_id": "7ee5762d-5c234b66",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.8355
+    },
+    {
+      "image_id": "771fbb7a-bd044abe",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.8204
+    },
+    {
+      "image_id": "168a2c99-c74274d0",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.3052
+    },
+    {
+      "image_id": "822e368c-be426cd4",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 2.4843
+    },
+    {
+      "image_id": "713a020b-ef413238",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.6813
+    },
+    {
+      "image_id": "8fddcd64-85cadf96",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.0181
+    },
+    {
+      "image_id": "3a860348-a3cffd1f",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.7737
+    },
+    {
+      "image_id": "9b3fe2a9-2df5c8fb",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.2561
+    },
+    {
+      "image_id": "4cdef661-5fb674c3",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.4613
+    },
+    {
+      "image_id": "4f516ff3-d38ab6af",
+      "weather": 5,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.4029
+    },
+    {
+      "image_id": "9ffedf7c-a202b816",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.3214
+    },
+    {
+      "image_id": "539b54e7-97932112",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 2.782
+    },
+    {
+      "image_id": "b0f27850-57830643",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.6237
+    },
+    {
+      "image_id": "19167d13-f661c624",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 1,
+      "s1_score": 3.3023
+    },
+    {
+      "image_id": "8eae6bd1-97e5ab8c",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 5.1674
+    },
+    {
+      "image_id": "6a7c3557-bde3340a",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 3.5058
+    },
+    {
+      "image_id": "13778850-da055c80",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 1.991
+    },
+    {
+      "image_id": "08b02c82-90355405",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.2663
+    },
+    {
+      "image_id": "816d38aa-8ab88d22",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.1003
+    },
+    {
+      "image_id": "5f08bf40-1ca10940",
+      "weather": 5,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.5067
+    },
+    {
+      "image_id": "074496ba-63007218",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.1295
+    },
+    {
+      "image_id": "3d7bcb0f-68bf0f42",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.0244
+    },
+    {
+      "image_id": "284c1af7-05af4f0c",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 4.4615
+    },
+    {
+      "image_id": "99ef4b3b-8607b29b",
+      "weather": 5,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 5.6022
+    },
+    {
+      "image_id": "81fc6799-96084fd7",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.4663
+    },
+    {
+      "image_id": "467008a0-68ead0a2",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.1732
+    },
+    {
+      "image_id": "226395fc-c5b88d2a",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.3348
+    },
+    {
+      "image_id": "167e3ac6-78017dc6",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.6954
+    },
+    {
+      "image_id": "73ffdf7a-a9fd6844",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.1775
+    },
+    {
+      "image_id": "89f9af4b-b9531a8f",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.6999
+    },
+    {
+      "image_id": "30dbe391-2411b4b8",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.6095
+    },
+    {
+      "image_id": "90775bce-a0a1817a",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.0454
+    },
+    {
+      "image_id": "5178d431-0171077b",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.823
+    },
+    {
+      "image_id": "73d3786a-853893fb",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.7236
+    },
+    {
+      "image_id": "a296eb41-69170cf7",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.1739
+    },
+    {
+      "image_id": "56b2064d-a2c3b864",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.1195
+    },
+    {
+      "image_id": "0c13b339-aa4c659e",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.7266
+    },
+    {
+      "image_id": "0aece855-7c6111b0",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.2997
+    },
+    {
+      "image_id": "20652cf8-711be8bd",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 3.3524
+    },
+    {
+      "image_id": "0dffa115-b8259b30",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.5085
+    },
+    {
+      "image_id": "5a30a603-211bdb88",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 6.0878
+    },
+    {
+      "image_id": "4005d947-ec2483eb",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.4711
+    },
+    {
+      "image_id": "7e5b574c-8c8b2572",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.2362
+    },
+    {
+      "image_id": "00b56f41-e0e5d918",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.8095
+    },
+    {
+      "image_id": "a0d4aa1b-ee03408e",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.5094
+    },
+    {
+      "image_id": "4c11eeda-f568c1a1",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.3801
+    },
+    {
+      "image_id": "6d4e5304-8783c841",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 5.2515
+    },
+    {
+      "image_id": "97592598-e09a510a",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.1613
+    },
+    {
+      "image_id": "8babfc5a-f4635542",
+      "weather": 5,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.056
+    },
+    {
+      "image_id": "b032279e-4a8d4aee",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 5.9391
+    },
+    {
+      "image_id": "5c25d741-e9ecff4b",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.587
+    },
+    {
+      "image_id": "1c06a109-346fc2a4",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.6242
+    },
+    {
+      "image_id": "18f3b2d1-4163de2e",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 4.4356
+    },
+    {
+      "image_id": "6269a99b-c6343a27",
+      "weather": 5,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.6276
+    },
+    {
+      "image_id": "378a5d8b-e961b934",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.4356
+    },
+    {
+      "image_id": "af19a342-a20fac1d",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.3322
+    },
+    {
+      "image_id": "60e5202b-cf0b8aee",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.3596
+    },
+    {
+      "image_id": "31bfa9ba-215a5ac8",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.9739
+    },
+    {
+      "image_id": "441fadc7-da358afd",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 3.7026
+    },
+    {
+      "image_id": "71884eef-6b34934b",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 4.1071
+    },
+    {
+      "image_id": "18c89af2-9f69c77a",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.0137
+    },
+    {
+      "image_id": "79434811-56d1a4c6",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.1214
+    },
+    {
+      "image_id": "aadc9581-caf5418f",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.4094
+    },
+    {
+      "image_id": "51f0ca56-91f0a5c1",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.0137
+    },
+    {
+      "image_id": "219b4201-347cecc2",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.5351
+    },
+    {
+      "image_id": "69bd834f-956b2e75",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.9939
+    },
+    {
+      "image_id": "848e2614-bfec4738",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.7572
+    },
+    {
+      "image_id": "59246d1e-e516307f",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.3606
+    },
+    {
+      "image_id": "006dd004-34630e8d",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.4133
+    },
+    {
+      "image_id": "3765f378-177d02fd",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 4.0315
+    },
+    {
+      "image_id": "7c618810-ea173340",
+      "weather": 5,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 4.4259
+    },
+    {
+      "image_id": "7d1b2534-aa8841f0",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.5616
+    },
+    {
+      "image_id": "2cc1c0de-bbf77b7f",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.3656
+    },
+    {
+      "image_id": "2ca554bd-e5b18c68",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.1996
+    },
+    {
+      "image_id": "952ae034-3ca4e16d",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 4.0026
+    },
+    {
+      "image_id": "0d0e2aee-eaac831f",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.2211
+    },
+    {
+      "image_id": "37f64b1f-f9b09835",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.7688
+    },
+    {
+      "image_id": "b127cbe6-ab165ae9",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.2386
+    },
+    {
+      "image_id": "11b47a8a-a2741304",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 3.0447
+    },
+    {
+      "image_id": "087ad1c6-cbc445cc",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.8378
+    },
+    {
+      "image_id": "7d2f7975-621434e2",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 3.5731
+    },
+    {
+      "image_id": "08e3c891-4faee3d0",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.3834
+    },
+    {
+      "image_id": "1f4b8e7d-b6d9cd5a",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.2478
+    },
+    {
+      "image_id": "3fba086e-ea01758b",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.0605
+    },
+    {
+      "image_id": "ae420565-e57927ed",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.0164
+    },
+    {
+      "image_id": "933651d0-fe9c9073",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.4772
+    },
+    {
+      "image_id": "33b8d51a-49ed956b",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.1056
+    },
+    {
+      "image_id": "204e35f4-add7f143",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.3745
+    },
+    {
+      "image_id": "77a415ba-fb790dc4",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.2156
+    },
+    {
+      "image_id": "6fc496a0-b7c7ecec",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.5686
+    },
+    {
+      "image_id": "34388031-f34deaf2",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 1,
+      "s1_score": 2.4063
+    },
+    {
+      "image_id": "6a4fa38c-6f902ede",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.1021
+    },
+    {
+      "image_id": "8861d4f3-9b51d701",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.1623
+    },
+    {
+      "image_id": "4a36de6f-3bf2c412",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.7511
+    },
+    {
+      "image_id": "b12992c7-fa9e7a33",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 1,
+      "s1_score": 2.8431
+    },
+    {
+      "image_id": "17587a71-e84fb69c",
+      "weather": 5,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.369
+    },
+    {
+      "image_id": "ac53c818-11efa05b",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 1.9857
+    },
+    {
+      "image_id": "4db85fec-acbd08cb",
+      "weather": 5,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.1175
+    },
+    {
+      "image_id": "129c98e4-57eb7b40",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.3985
+    },
+    {
+      "image_id": "6645e8ae-d157603d",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.2104
+    },
+    {
+      "image_id": "19a6bb42-bfdf0c68",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.1357
+    },
+    {
+      "image_id": "84d591b7-0cf9074c",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.7312
+    },
+    {
+      "image_id": "85d1f47d-b2c06785",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.3162
+    },
+    {
+      "image_id": "66f74dea-fb19aa81",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.8624
+    },
+    {
+      "image_id": "42534b14-4546fa64",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.0921
+    },
+    {
+      "image_id": "42fc4ae5-c15809ae",
+      "weather": 5,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.4078
+    },
+    {
+      "image_id": "a5aac021-2075c0b2",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.098
+    },
+    {
+      "image_id": "7c761a2a-7f53f8d7",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.4126
+    },
+    {
+      "image_id": "9565ff21-7d101069",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.132
+    },
+    {
+      "image_id": "a7ec312c-66dc5847",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.7125
+    },
+    {
+      "image_id": "17b38642-aa0ed4f4",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.6809
+    },
+    {
+      "image_id": "4b9bdc73-821e5299",
+      "weather": 5,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.0879
+    },
+    {
+      "image_id": "52ba66d6-4aafde44",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.7183
+    },
+    {
+      "image_id": "051a273b-48b86bf6",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.0397
+    },
+    {
+      "image_id": "5c79de66-3808d436",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 5.0016
+    },
+    {
+      "image_id": "98eaf548-abea11bb",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.913
+    },
+    {
+      "image_id": "80eefbe3-e95c1a6e",
+      "weather": 5,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.0861
+    },
+    {
+      "image_id": "8ab12dec-3b170891",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 1.9999
+    },
+    {
+      "image_id": "877870b3-8a5c869a",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 3.1109
+    },
+    {
+      "image_id": "81ea5d4c-a3ec5091",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.7531
+    },
+    {
+      "image_id": "6d5c1066-a0b34154",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.0131
+    },
+    {
+      "image_id": "30e40da5-71352a76",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.7788
+    },
+    {
+      "image_id": "2fdcceaa-6861b01b",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.1636
+    },
+    {
+      "image_id": "a4a9a3dd-af981ec2",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 1.9777
+    },
+    {
+      "image_id": "2ea5f89d-9fed14ac",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.436
+    },
+    {
+      "image_id": "5b27653c-3b382bb7",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.6725
+    },
+    {
+      "image_id": "06b4defc-47b6298e",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.1049
+    },
+    {
+      "image_id": "81a1944e-5d992e3f",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.4758
+    },
+    {
+      "image_id": "328e2c2d-e352641f",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.3121
+    },
+    {
+      "image_id": "572f3103-952eb72c",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 5.1468
+    },
+    {
+      "image_id": "22ca8f3f-1fdcbbce",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.4722
+    },
+    {
+      "image_id": "9e2f454b-3b832651",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 1,
+      "s1_score": 3.9759
+    },
+    {
+      "image_id": "3262196b-a043aaa4",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.7335
+    },
+    {
+      "image_id": "747a6b08-814c4281",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.507
+    },
+    {
+      "image_id": "60e6a464-1e8789a0",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.8789
+    },
+    {
+      "image_id": "4b9a6026-4c094200",
+      "weather": 5,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.4307
+    },
+    {
+      "image_id": "51b37824-05823395",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.4188
+    },
+    {
+      "image_id": "69197f47-3c030134",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.0171
+    },
+    {
+      "image_id": "53a82779-2588b0f5",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.2002
+    },
+    {
+      "image_id": "374088b9-54b4661f",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.5397
+    },
+    {
+      "image_id": "0cfd4cb3-5bc4199e",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 4.3942
+    },
+    {
+      "image_id": "7899083e-02def6bf",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 3.0247
+    },
+    {
+      "image_id": "5250cae5-1f6040e0",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.0521
+    },
+    {
+      "image_id": "af19251c-42fa9e0e",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.0475
+    },
+    {
+      "image_id": "69e2c7cd-5b86565f",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 1,
+      "s1_score": 2.4523
+    },
+    {
+      "image_id": "86f8b1ef-315affcf",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.8459
+    },
+    {
+      "image_id": "4cdef661-757632de",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 4.4427
+    },
+    {
+      "image_id": "7c94a6c0-f30dc1b5",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.0723
+    },
+    {
+      "image_id": "02097021-295d2161",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.0185
+    },
+    {
+      "image_id": "46aae4b5-05a7ab5d",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 4.0896
+    },
+    {
+      "image_id": "ad368b94-a45902cd",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.2228
+    },
+    {
+      "image_id": "5f8665e3-c3ba57f5",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 2.2707
+    },
+    {
+      "image_id": "451d541a-68edeb3e",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.1197
+    },
+    {
+      "image_id": "4cdef661-b834a222",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 5.2983
+    },
+    {
+      "image_id": "97b1bb3f-45e1da19",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.1534
+    },
+    {
+      "image_id": "38b272c8-21eb9a9b",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.5188
+    },
+    {
+      "image_id": "315dd013-bfb8c030",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.4717
+    },
+    {
+      "image_id": "17a50ff7-b4137f0b",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.1805
+    },
+    {
+      "image_id": "a859a091-6faf9df0",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.6415
+    },
+    {
+      "image_id": "a463a36f-93f4044f",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 1.9963
+    },
+    {
+      "image_id": "6df0259a-5534e609",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.2725
+    },
+    {
+      "image_id": "40f8ebd3-403340a6",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.4929
+    },
+    {
+      "image_id": "54921a05-5b58d82d",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.3273
+    },
+    {
+      "image_id": "af0ffe11-31467fd4",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.1666
+    },
+    {
+      "image_id": "3fa2fae3-0fdabf27",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.4131
+    },
+    {
+      "image_id": "5b9fc8b8-d1282781",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.0368
+    },
+    {
+      "image_id": "2228c293-3a585561",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.1542
+    },
+    {
+      "image_id": "93eb6181-150cd7ef",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.6939
+    },
+    {
+      "image_id": "a10fa3d4-7a2a53fd",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 5.7989
+    },
+    {
+      "image_id": "12dbce83-368f9b4c",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.5691
+    },
+    {
+      "image_id": "ace514ec-4fe805d8",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.3173
+    },
+    {
+      "image_id": "5691a2c2-4780542f",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 4.962
+    },
+    {
+      "image_id": "8dc160b2-2f05e83f",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.3748
+    },
+    {
+      "image_id": "411ace27-5337c382",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.5174
+    },
+    {
+      "image_id": "0dcd165f-81255c47",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 1.9769
+    },
+    {
+      "image_id": "12524cde-776fedab",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.1552
+    },
+    {
+      "image_id": "2ee9ee70-0cac5b83",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 4.2947
+    },
+    {
+      "image_id": "af7a1b12-e07f82b9",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 4.167
+    },
+    {
+      "image_id": "856d592d-a1a48c69",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 4.1106
+    },
+    {
+      "image_id": "94d4c571-4abac154",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.1907
+    },
+    {
+      "image_id": "18794cdb-11294703",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.5113
+    },
+    {
+      "image_id": "841140ad-d896b44b",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 1,
+      "s1_score": 3.022
+    },
+    {
+      "image_id": "1ba3ce97-ccd818f4",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.2916
+    },
+    {
+      "image_id": "a618f73a-7e9e063b",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.21
+    },
+    {
+      "image_id": "1c46b25a-a5e43346",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.0965
+    },
+    {
+      "image_id": "136f3a1f-1d5381a2",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.3278
+    },
+    {
+      "image_id": "8a2e8eca-d2b5c8b6",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.3716
+    },
+    {
+      "image_id": "08c88de6-6cd7fb48",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 5.5023
+    },
+    {
+      "image_id": "24e0b338-03f6994c",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 4.3264
+    },
+    {
+      "image_id": "1d1c2bfe-e70734c9",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 4.9566
+    },
+    {
+      "image_id": "3e2e582d-b1aba6ac",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.2258
+    },
+    {
+      "image_id": "775b73b8-cf0c5d73",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.9809
+    },
+    {
+      "image_id": "82226364-69940851",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.5089
+    },
+    {
+      "image_id": "5fdd1ab2-558a1919",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 3.3221
+    },
+    {
+      "image_id": "7b47f738-08d66ead",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 4.1617
+    },
+    {
+      "image_id": "0f2337eb-2b790a4a",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.2182
+    },
+    {
+      "image_id": "03567106-32193027",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.2269
+    },
+    {
+      "image_id": "7449b65e-83910992",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.2075
+    },
+    {
+      "image_id": "32cefc97-3b99d299",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.3651
+    },
+    {
+      "image_id": "384a1e3b-8afb607a",
+      "weather": 5,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 4.2245
+    },
+    {
+      "image_id": "a4447131-2b9daf81",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.5247
+    },
+    {
+      "image_id": "a79fd55c-9c8e3332",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 4.1948
+    },
+    {
+      "image_id": "839a6e84-d394eae1",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.6723
+    },
+    {
+      "image_id": "a2b6b173-7f5895c0",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.0357
+    },
+    {
+      "image_id": "1bdaad84-d18200c2",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 5.1668
+    },
+    {
+      "image_id": "2ea7ca3d-83a517c3",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 3.3181
+    },
+    {
+      "image_id": "3ce51ba2-b40eaec4",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 5.2845
+    },
+    {
+      "image_id": "38e5e93f-88160394",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.3542
+    },
+    {
+      "image_id": "966dc7f9-885c9927",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 4.5329
+    },
+    {
+      "image_id": "3c90ec71-edb4d611",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 4.562
+    },
+    {
+      "image_id": "16269211-4dc683b2",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.3691
+    },
+    {
+      "image_id": "03a1130c-8c69a61a",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.4258
+    },
+    {
+      "image_id": "198d8f5e-2b4d439d",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.6585
+    },
+    {
+      "image_id": "6a7c3557-2c360d6c",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.1931
+    },
+    {
+      "image_id": "1bf5bf8a-350d126f",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.2635
+    },
+    {
+      "image_id": "6b099ca0-11438264",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.1685
+    },
+    {
+      "image_id": "3bdb8590-d2a9ad60",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 4.1112
+    },
+    {
+      "image_id": "07116ae0-e9b4fa4a",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.6117
+    },
+    {
+      "image_id": "320608e7-0c8fcdff",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.0012
+    },
+    {
+      "image_id": "76ebdfa2-365a75f2",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.6204
+    },
+    {
+      "image_id": "b04df2dd-7b9196d6",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.8073
+    },
+    {
+      "image_id": "2af548b0-be17b5a4",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 1.9943
+    },
+    {
+      "image_id": "a8810481-bdfcc317",
+      "weather": 5,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.283
+    },
+    {
+      "image_id": "26089727-2dbbeef5",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 1,
+      "s1_score": 2.2818
+    },
+    {
+      "image_id": "b1bea966-e9bd6f08",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.6566
+    },
+    {
+      "image_id": "9a63ac09-a4329c41",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 4.035
+    },
+    {
+      "image_id": "972718e0-917a5ab7",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.3428
+    },
+    {
+      "image_id": "2877f8d8-b4b6b84e",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.3615
+    },
+    {
+      "image_id": "4147ffb6-635ffb06",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.4013
+    },
+    {
+      "image_id": "9aeeeb38-c89693a8",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.7018
+    },
+    {
+      "image_id": "47f34ebe-e927a454",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.8556
+    },
+    {
+      "image_id": "76bfd314-802c6ba0",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 3.0568
+    },
+    {
+      "image_id": "4581b7e0-8d9554f8",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 1,
+      "s1_score": 2.8964
+    },
+    {
+      "image_id": "8136c8cf-354a5f50",
+      "weather": 5,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 4.7216
+    },
+    {
+      "image_id": "29b6a36b-3ef7db23",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.2146
+    },
+    {
+      "image_id": "694014f7-b0bda33f",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 1,
+      "s1_score": 2.0793
+    },
+    {
+      "image_id": "ac866fe0-21bda62e",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.3643
+    },
+    {
+      "image_id": "a92ffdc9-0fa26399",
+      "weather": 5,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.0418
+    },
+    {
+      "image_id": "6726a60d-37b35f1a",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.7004
+    },
+    {
+      "image_id": "6fcbd17b-7e70a59b",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.1663
+    },
+    {
+      "image_id": "95805c93-214423cd",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.8324
+    },
+    {
+      "image_id": "7e2dea94-32b4bc88",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.2877
+    },
+    {
+      "image_id": "692fd125-b034ac2f",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.431
+    },
+    {
+      "image_id": "a04fd28c-db383b56",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.6543
+    },
+    {
+      "image_id": "6d0e38f3-5cb70889",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.3545
+    },
+    {
+      "image_id": "1a5dc090-d605e171",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.4113
+    },
+    {
+      "image_id": "09f81455-e194d277",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.1543
+    },
+    {
+      "image_id": "22a5b941-45e71aac",
+      "weather": 5,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 5.3982
+    },
+    {
+      "image_id": "84c4f7f3-e410adfb",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.0182
+    },
+    {
+      "image_id": "31f7afcf-f95023c5",
+      "weather": 5,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.4602
+    },
+    {
+      "image_id": "14306a74-dbad8809",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.7619
+    },
+    {
+      "image_id": "7c35c3cb-208a6801",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.9107
+    },
+    {
+      "image_id": "48748490-fbba0d10",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 3.3769
+    },
+    {
+      "image_id": "057eea5e-7fe988ad",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 3.4905
+    },
+    {
+      "image_id": "55619894-21b24992",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 3.3557
+    },
+    {
+      "image_id": "92c959b6-45d25a57",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 3.2112
+    },
+    {
+      "image_id": "9014d394-343d73df",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.6369
+    },
+    {
+      "image_id": "62ae0acf-52835467",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.8798
+    },
+    {
+      "image_id": "96b2dbc0-a0c166c5",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.2472
+    },
+    {
+      "image_id": "a4472f58-321beec6",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.0928
+    },
+    {
+      "image_id": "00091078-c1d32eea",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 4.4333
+    },
+    {
+      "image_id": "b1798350-4d2853a9",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.8956
+    },
+    {
+      "image_id": "431de9f3-a01002d2",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.3009
+    },
+    {
+      "image_id": "1294a00a-b6139782",
+      "weather": 5,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 4.1771
+    },
+    {
+      "image_id": "23078203-27f40d1d",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.2294
+    },
+    {
+      "image_id": "49a49546-a82ceffc",
+      "weather": 5,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.5623
+    },
+    {
+      "image_id": "0378d8dc-45d0c6c6",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.6159
+    },
+    {
+      "image_id": "9affc986-4e373d68",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.1231
+    },
+    {
+      "image_id": "844ddc77-af6ed154",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 4.8515
+    },
+    {
+      "image_id": "5928d20c-ec3e5c4c",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.4765
+    },
+    {
+      "image_id": "8a4ec9df-483ff936",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 1,
+      "s1_score": 3.0868
+    },
+    {
+      "image_id": "24f1e119-7b9ce34d",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.0885
+    },
+    {
+      "image_id": "1684da77-d85c078c",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.3528
+    },
+    {
+      "image_id": "aaa81212-1a97f6ce",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.139
+    },
+    {
+      "image_id": "6ce00bf0-e53588ae",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.4497
+    },
+    {
+      "image_id": "10ef4dad-ae6f540a",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 3.6681
+    },
+    {
+      "image_id": "57116a0f-54595570",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.5372
+    },
+    {
+      "image_id": "4cd663cc-e2592ddd",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.9032
+    },
+    {
+      "image_id": "7cdb7692-ce54d75d",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.1873
+    },
+    {
+      "image_id": "0fcfcf5e-7bfac95b",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.3387
+    },
+    {
+      "image_id": "31a912d2-3f3d12ba",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 5.2161
+    },
+    {
+      "image_id": "2fe8c6a4-d0d1c53d",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.6852
+    },
+    {
+      "image_id": "30ec7afc-da702ec5",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.8749
+    },
+    {
+      "image_id": "12ab42b4-356ece17",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 4.3353
+    },
+    {
+      "image_id": "37cfb41d-7b295d97",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 3.093
+    },
+    {
+      "image_id": "02097021-05dcbf23",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.2855
+    },
+    {
+      "image_id": "3aca796c-c4330ccc",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 4.9268
+    },
+    {
+      "image_id": "541bdb02-0751df83",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 3.1428
+    },
+    {
+      "image_id": "02346f91-18e2acf4",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.257
+    },
+    {
+      "image_id": "fdd7f0c9-02ee5154",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.2455
+    },
+    {
+      "image_id": "3c4403cc-15a4d350",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.0697
+    },
+    {
+      "image_id": "2e7cbf8e-ca242169",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.2086
+    },
+    {
+      "image_id": "8a15aa84-07dc3b82",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 4.2862
+    },
+    {
+      "image_id": "312c1d93-68e86150",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.12
+    },
+    {
+      "image_id": "57e78466-378b1ac8",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.2179
+    },
+    {
+      "image_id": "6a5aba9f-bf120705",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.4055
+    },
+    {
+      "image_id": "ae99cb2e-445f2ed5",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.1367
+    },
+    {
+      "image_id": "99eac95d-06b7f1ac",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 3.2394
+    },
+    {
+      "image_id": "7e8b11fe-da4162ed",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.0565
+    },
+    {
+      "image_id": "5e56be93-06c66071",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.3827
+    },
+    {
+      "image_id": "45f290df-905b6f45",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 3.7905
+    },
+    {
+      "image_id": "9b4bbc7a-bef8188f",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 4.6895
+    },
+    {
+      "image_id": "702eb410-30df5faf",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.7284
+    },
+    {
+      "image_id": "8d669aa7-3638e15b",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 4.1375
+    },
+    {
+      "image_id": "9fc82baa-83282db2",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.6655
+    },
+    {
+      "image_id": "328e2c2d-3b17873e",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.4328
+    },
+    {
+      "image_id": "1e2ac9da-34ab6f13",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.0019
+    },
+    {
+      "image_id": "234fce8c-8b3d1523",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 1,
+      "s1_score": 2.7785
+    },
+    {
+      "image_id": "7390ba06-9c57e902",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.9451
+    },
+    {
+      "image_id": "849dd4a1-3582e10d",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 3.0463
+    },
+    {
+      "image_id": "731f5097-27016424",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.8119
+    },
+    {
+      "image_id": "87354346-3ba899b2",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.6288
+    },
+    {
+      "image_id": "2c29598f-54fc6503",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 4.5072
+    },
+    {
+      "image_id": "267aa141-2e47e13b",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.2307
+    },
+    {
+      "image_id": "467008a0-59f37333",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.3252
+    },
+    {
+      "image_id": "072f9d2d-ebc9b075",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.3573
+    },
+    {
+      "image_id": "7ef30b99-cf0cf1b1",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.5252
+    },
+    {
+      "image_id": "af19251c-9079b2bc",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.2331
+    },
+    {
+      "image_id": "07c73bfa-fb4ea59a",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 4.7867
+    },
+    {
+      "image_id": "94c8c192-f031f472",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.1677
+    },
+    {
+      "image_id": "6ce727b7-8fe979ec",
+      "weather": 5,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.9607
+    },
+    {
+      "image_id": "11a93b51-496acae5",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.4115
+    },
+    {
+      "image_id": "0c7b1a08-308fabfa",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.9886
+    },
+    {
+      "image_id": "709376bb-30272868",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 4.3731
+    },
+    {
+      "image_id": "3ddcd7aa-8f8bf284",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 1.987
+    },
+    {
+      "image_id": "7fa6bfb2-feaa502f",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 4.1042
+    },
+    {
+      "image_id": "58e60c7e-a4dde9c0",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 3.227
+    },
+    {
+      "image_id": "86daaa15-fc960cb9",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 1,
+      "s1_score": 2.4522
+    },
+    {
+      "image_id": "6e5ce403-2f55b3c5",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.2592
+    },
+    {
+      "image_id": "71382533-cbb184c7",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.9174
+    },
+    {
+      "image_id": "6f8d674d-bf38cdf9",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.2996
+    },
+    {
+      "image_id": "236c84e4-f992e06c",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.0086
+    },
+    {
+      "image_id": "4903306a-cd1777f2",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.0617
+    },
+    {
+      "image_id": "03fd9aa1-78e4c146",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.1088
+    },
+    {
+      "image_id": "a9000110-abf53858",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 4.4061
+    },
+    {
+      "image_id": "16d5d094-6bbeefaa",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.0704
+    },
+    {
+      "image_id": "0719a2ec-133d9525",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.0956
+    },
+    {
+      "image_id": "59a4052e-c0826e96",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.2977
+    },
+    {
+      "image_id": "1ac9de41-bcbc4db4",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.7481
+    },
+    {
+      "image_id": "3374e48f-233908f3",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.4941
+    },
+    {
+      "image_id": "1534d7b4-879592c0",
+      "weather": 5,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.2114
+    },
+    {
+      "image_id": "46d66a53-4e82200b",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.6513
+    },
+    {
+      "image_id": "231bdb08-8b0af3f8",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.9819
+    },
+    {
+      "image_id": "3c4b5a2c-cbc0bf79",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.7344
+    },
+    {
+      "image_id": "1f864b3f-40dfcddf",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.2201
+    },
+    {
+      "image_id": "48c7ca96-341a9d60",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.2364
+    },
+    {
+      "image_id": "445e8b0c-58cf8055",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.5167
+    },
+    {
+      "image_id": "3aa00677-7b4227dd",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 1,
+      "s1_score": 1.9809
+    },
+    {
+      "image_id": "53a82779-e318a3a1",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 1.9816
+    },
+    {
+      "image_id": "98de67f4-25ac754c",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.7472
+    },
+    {
+      "image_id": "427aa10e-f4c59326",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.0679
+    },
+    {
+      "image_id": "afad4450-a4f54f76",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.5701
+    },
+    {
+      "image_id": "3bbbd5b4-a66755c6",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.8451
+    },
+    {
+      "image_id": "4da404dc-a5592f0e",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 4.2019
+    },
+    {
+      "image_id": "a8b39a41-b3b3f8fe",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 5.2982
+    },
+    {
+      "image_id": "49df1fae-7e9327d2",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.5722
+    },
+    {
+      "image_id": "24894c5f-9db6a7c2",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.9605
+    },
+    {
+      "image_id": "43234d44-be018195",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 3.978
+    },
+    {
+      "image_id": "66c32738-720db622",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 4.8398
+    },
+    {
+      "image_id": "3207d01f-e2bced21",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.2174
+    },
+    {
+      "image_id": "4c1b0c9a-47a9b13f",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 1,
+      "s1_score": 2.1587
+    },
+    {
+      "image_id": "4c6c487e-51b2fb73",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.1168
+    },
+    {
+      "image_id": "69fbc9c8-2c333e0b",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 1,
+      "s1_score": 2.0681
+    },
+    {
+      "image_id": "559fed19-041c6358",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.0572
+    },
+    {
+      "image_id": "10a18a70-851b463c",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.2561
+    },
+    {
+      "image_id": "8116ed0d-d2c1f829",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 4.0053
+    },
+    {
+      "image_id": "51da1a38-d3f4eb87",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.6324
+    },
+    {
+      "image_id": "825f518e-1976836a",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.4588
+    },
+    {
+      "image_id": "710543fe-592ccedc",
+      "weather": 5,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.6072
+    },
+    {
+      "image_id": "98dc67a8-aad370c7",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.2468
+    },
+    {
+      "image_id": "909914a0-e533e7a1",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.2094
+    },
+    {
+      "image_id": "67319228-9ba5d043",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.9869
+    },
+    {
+      "image_id": "a65d7ec1-e28cc031",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 3.9268
+    },
+    {
+      "image_id": "8cde44cb-9402cfe6",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.4108
+    },
+    {
+      "image_id": "08ef9f76-89584399",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.3295
+    },
+    {
+      "image_id": "5b8cf770-e3eb512c",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.5387
+    },
+    {
+      "image_id": "430d994f-9bcb431a",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.942
+    },
+    {
+      "image_id": "7da40adb-6d2ebd4c",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.7272
+    },
+    {
+      "image_id": "93a1bf3e-7bde9365",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.7042
+    },
+    {
+      "image_id": "6682afdf-94e1b1c3",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.4923
+    },
+    {
+      "image_id": "9e737143-7bd97851",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.7065
+    },
+    {
+      "image_id": "12f7d5f7-a73e8b23",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.0069
+    },
+    {
+      "image_id": "4534b370-e0635163",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.6806
+    },
+    {
+      "image_id": "176c2e34-b84e3255",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.011
+    },
+    {
+      "image_id": "1f864b3f-8b5641f6",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 5.4928
+    },
+    {
+      "image_id": "91d0f84f-aed3ec15",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 3.0551
+    },
+    {
+      "image_id": "154ea6d1-6dfc3b99",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.2871
+    },
+    {
+      "image_id": "80ed17ad-145a4130",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 5.1454
+    },
+    {
+      "image_id": "5250cae5-6df09b99",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.2708
+    },
+    {
+      "image_id": "23a23be3-7cc2075a",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.3016
+    },
+    {
+      "image_id": "6555fbdf-34582377",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.7151
+    },
+    {
+      "image_id": "38ebbd50-57fe86dc",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.463
+    },
+    {
+      "image_id": "5028150b-9ea7f371",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.7579
+    },
+    {
+      "image_id": "6fbec8f0-6714fd67",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.6764
+    },
+    {
+      "image_id": "84a0b96e-95bce3c9",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.185
+    },
+    {
+      "image_id": "7baab307-3dc6d955",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 4.9627
+    },
+    {
+      "image_id": "4b94bae4-48184270",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.0887
+    },
+    {
+      "image_id": "29da0a66-be26abfa",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 5.6243
+    },
+    {
+      "image_id": "04204c11-23fb353a",
+      "weather": 5,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.5633
+    },
+    {
+      "image_id": "2c66e91c-ab78037b",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.0597
+    },
+    {
+      "image_id": "fde725fc-9baa20b1",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.6769
+    },
+    {
+      "image_id": "0cee3ce7-a2b954e5",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.4129
+    },
+    {
+      "image_id": "04629c39-faefdb18",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 3.0981
+    },
+    {
+      "image_id": "7ec6a900-98512d73",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 3.5802
+    },
+    {
+      "image_id": "14dd13c4-2865e565",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.2713
+    },
+    {
+      "image_id": "3acdd755-047eb55e",
+      "weather": 5,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 1.9989
+    },
+    {
+      "image_id": "a7c475da-15f27a8e",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.1992
+    },
+    {
+      "image_id": "226e7dd7-d3150bf7",
+      "weather": 5,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.1116
+    },
+    {
+      "image_id": "7c14d084-0e51b2f3",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.8451
+    },
+    {
+      "image_id": "7565a05c-c6b3a34a",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.5336
+    },
+    {
+      "image_id": "6e82a572-ade58d2e",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.9748
+    },
+    {
+      "image_id": "5b85f948-974cbda8",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.1826
+    },
+    {
+      "image_id": "10c72910-55102d2f",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.7092
+    },
+    {
+      "image_id": "13081d41-6bc6d1e4",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.9553
+    },
+    {
+      "image_id": "5eb69692-6f6cfd13",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.0903
+    },
+    {
+      "image_id": "7eab8b99-e9f5843f",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.0264
+    },
+    {
+      "image_id": "2f5403ab-ef180bb6",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 3.183
+    },
+    {
+      "image_id": "a5f49541-a0b9cd82",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 1.9763
+    },
+    {
+      "image_id": "99405beb-4d6bae64",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 3.9306
+    },
+    {
+      "image_id": "1f79f230-a15dcf16",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.3093
+    },
+    {
+      "image_id": "74e8f1f7-2b8a1bbd",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.0449
+    },
+    {
+      "image_id": "6830879e-c291b0e5",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 3.3026
+    },
+    {
+      "image_id": "67bbb790-0cc9d5ec",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.6355
+    },
+    {
+      "image_id": "94e6b404-8a3af135",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.7904
+    },
+    {
+      "image_id": "2c02054a-1dc1e70f",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.1642
+    },
+    {
+      "image_id": "39d36d12-e186691a",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.4447
+    },
+    {
+      "image_id": "30d12c3e-9856983a",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 4.4365
+    },
+    {
+      "image_id": "1d6da993-0036fc78",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.6697
+    },
+    {
+      "image_id": "6e8c76fc-38f0db40",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.576
+    },
+    {
+      "image_id": "141e7647-6abbf4ef",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.2023
+    },
+    {
+      "image_id": "9f55533d-bb935f1e",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.7768
+    },
+    {
+      "image_id": "61540be6-511d9bcb",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.6382
+    },
+    {
+      "image_id": "26cec0ca-3d0059af",
+      "weather": 5,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.33
+    },
+    {
+      "image_id": "3c446cdf-a64ef57e",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.9253
+    },
+    {
+      "image_id": "5e4b3dc5-d4b04e70",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.3223
+    },
+    {
+      "image_id": "4dfd44b3-e9b3e379",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.0691
+    },
+    {
+      "image_id": "8c387a29-29581b6d",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 4.7106
+    },
+    {
+      "image_id": "6873ad87-e573d5df",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.5815
+    },
+    {
+      "image_id": "3a35e675-f5a18f05",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 4.1134
+    },
+    {
+      "image_id": "9a3d3f00-40dcce8b",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.3317
+    },
+    {
+      "image_id": "9b252f93-225c8b05",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.1191
+    },
+    {
+      "image_id": "a166713c-472c9a4d",
+      "weather": 5,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 5.0114
+    },
+    {
+      "image_id": "882d1cae-c7a5c1b9",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 6.3199
+    },
+    {
+      "image_id": "7481b347-18b6baee",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.2263
+    },
+    {
+      "image_id": "3dd70cac-b22695dd",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 1.9669
+    },
+    {
+      "image_id": "55de4228-c37a8e3f",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 1.9896
+    },
+    {
+      "image_id": "5995c288-45fa9eb1",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.0344
+    },
+    {
+      "image_id": "837d0518-88322143",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.2543
+    },
+    {
+      "image_id": "38b272c8-a8fa6415",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.1105
+    },
+    {
+      "image_id": "16d116e4-a5d3929c",
+      "weather": 5,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.5501
+    },
+    {
+      "image_id": "92c5f54d-ec0eef76",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.9023
+    },
+    {
+      "image_id": "1bc2a99e-01ce3966",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.356
+    },
+    {
+      "image_id": "73089556-4ca0c718",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.2942
+    },
+    {
+      "image_id": "79062d5b-1b736754",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.6425
+    },
+    {
+      "image_id": "ac330462-57b2f6a7",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.6467
+    },
+    {
+      "image_id": "33f572c4-bc2b2915",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.198
+    },
+    {
+      "image_id": "a1acfdb8-6a938192",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 3.2669
+    },
+    {
+      "image_id": "96705ae2-018b7344",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.3431
+    },
+    {
+      "image_id": "1ffa8e68-ee3bfa9a",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.2074
+    },
+    {
+      "image_id": "11e90df3-5799646d",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 4.7251
+    },
+    {
+      "image_id": "2d50ea78-465d2c68",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.8955
+    },
+    {
+      "image_id": "298185ad-cab56198",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 4.3757
+    },
+    {
+      "image_id": "283efe3d-9f0c621b",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.888
+    },
+    {
+      "image_id": "9a93f77f-2bc57f9b",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.9083
+    },
+    {
+      "image_id": "a5753e44-35c532d6",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 5.0248
+    },
+    {
+      "image_id": "1f864b3f-e658daa2",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.2576
+    },
+    {
+      "image_id": "76e83a1d-6b9de708",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.366
+    },
+    {
+      "image_id": "5fba98b8-7aff7ddd",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.0936
+    },
+    {
+      "image_id": "481795d3-ee8d003b",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.632
+    },
+    {
+      "image_id": "7a2811a0-572acc38",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.015
+    },
+    {
+      "image_id": "96267bf4-96063418",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.9764
+    },
+    {
+      "image_id": "1f864b3f-0ea99dfa",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 4.4874
+    },
+    {
+      "image_id": "822d5cee-a857d931",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.2496
+    },
+    {
+      "image_id": "863e12b2-e67bfedd",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 1.9776
+    },
+    {
+      "image_id": "a226f3ef-6a0f7e6a",
+      "weather": 5,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.4464
+    },
+    {
+      "image_id": "9d562bf8-0c1af0ca",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.4686
+    },
+    {
+      "image_id": "a5ba0148-4a34249c",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.4032
+    },
+    {
+      "image_id": "79523402-77ded658",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.5486
+    },
+    {
+      "image_id": "319e215a-3674422e",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.2534
+    },
+    {
+      "image_id": "87b62937-7fb40afe",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.2319
+    },
+    {
+      "image_id": "31cf6eba-3c2be4c8",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.764
+    },
+    {
+      "image_id": "fde725fc-281c8ef2",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 5.0122
+    },
+    {
+      "image_id": "66131447-9b592b22",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 1,
+      "s1_score": 2.0128
+    },
+    {
+      "image_id": "2d765c3b-78834627",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.0236
+    },
+    {
+      "image_id": "0fb86701-19f58a57",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.2375
+    },
+    {
+      "image_id": "8a56eb74-fd098155",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.4434
+    },
+    {
+      "image_id": "94e68a16-370348a3",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.0925
+    },
+    {
+      "image_id": "3b5e8541-da973215",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.6746
+    },
+    {
+      "image_id": "75e31754-d3cfad98",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.4841
+    },
+    {
+      "image_id": "86fde21e-215a0374",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 6.2394
+    },
+    {
+      "image_id": "547cace7-605c8415",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 3.8674
+    },
+    {
+      "image_id": "a927515c-b2fc6814",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.9152
+    },
+    {
+      "image_id": "7ddd304a-88962958",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 4.5184
+    },
+    {
+      "image_id": "9b8735b0-f31010ce",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.7594
+    },
+    {
+      "image_id": "35b5c7db-b4279769",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 3.0703
+    },
+    {
+      "image_id": "0fa741ce-23e2fb88",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 4.5969
+    },
+    {
+      "image_id": "3207d01f-291ba1f4",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.6083
+    },
+    {
+      "image_id": "3043475a-d1e03009",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.5041
+    },
+    {
+      "image_id": "5557aeed-ad49a0d8",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 1,
+      "s1_score": 3.7676
+    },
+    {
+      "image_id": "4f6b60e0-4baae35d",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.8094
+    },
+    {
+      "image_id": "799fbd2f-ef2ed861",
+      "weather": 5,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.017
+    },
+    {
+      "image_id": "3299c2a0-b1fe7eba",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.379
+    },
+    {
+      "image_id": "7439610d-6c2d3205",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.0885
+    },
+    {
+      "image_id": "6a3a997e-8645f779",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 5.1021
+    },
+    {
+      "image_id": "415abfb6-91780b65",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.279
+    },
+    {
+      "image_id": "aa1683e7-8139c2f3",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 4.6072
+    },
+    {
+      "image_id": "8ad4ae56-3fff0ee1",
+      "weather": 5,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.7286
+    },
+    {
+      "image_id": "147a04c9-e958476e",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 1,
+      "s1_score": 2.8626
+    },
+    {
+      "image_id": "7d7142f2-a71412ce",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.3341
+    },
+    {
+      "image_id": "29600244-7cf25648",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.5608
+    },
+    {
+      "image_id": "aefd1f1c-56ec0e79",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.0293
+    },
+    {
+      "image_id": "a110e9ed-8182e2f6",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.1171
+    },
+    {
+      "image_id": "2659afe3-d43a2cc1",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.266
+    },
+    {
+      "image_id": "831e128a-3e132db3",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.6933
+    },
+    {
+      "image_id": "376792a0-9002c34d",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 3.23
+    },
+    {
+      "image_id": "8c03bfc3-1451b2e9",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.9892
+    },
+    {
+      "image_id": "9063b471-cea7adb2",
+      "weather": 5,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.1427
+    },
+    {
+      "image_id": "77c581fe-b91cdc00",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 4.003
+    },
+    {
+      "image_id": "6fb763c3-ba66c271",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.3837
+    },
+    {
+      "image_id": "559a5355-fc911369",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.1147
+    },
+    {
+      "image_id": "8f287d33-1a04aa24",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.6776
+    },
+    {
+      "image_id": "9df7ada8-d3071bc2",
+      "weather": 5,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.1488
+    },
+    {
+      "image_id": "88b6fbc3-5f7f00fc",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 1.974
+    },
+    {
+      "image_id": "2ec46ca0-710a0bd2",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.7509
+    },
+    {
+      "image_id": "89f1e93a-df4bcb2b",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.5911
+    },
+    {
+      "image_id": "8281391f-c272f6bb",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.9941
+    },
+    {
+      "image_id": "110c9575-a023613b",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 4.5886
+    },
+    {
+      "image_id": "3b27c49f-c8573cc6",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.1739
+    },
+    {
+      "image_id": "2fb64dcd-e23b861a",
+      "weather": 5,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 4.4756
+    },
+    {
+      "image_id": "8c638195-883b75cc",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.046
+    },
+    {
+      "image_id": "492d0486-95ca9e2e",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.4313
+    },
+    {
+      "image_id": "078fe907-c39a62fa",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 4.3777
+    },
+    {
+      "image_id": "aec76b0c-a4451058",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.2049
+    },
+    {
+      "image_id": "a4761d4d-d8a1d50b",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 1.9796
+    },
+    {
+      "image_id": "30e26668-cc8e6b97",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.0189
+    },
+    {
+      "image_id": "86aaf7be-b1c58a99",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 4.308
+    },
+    {
+      "image_id": "2eec7a7b-fd491aee",
+      "weather": 5,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.1131
+    },
+    {
+      "image_id": "912ecff3-b7762a0e",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.381
+    },
+    {
+      "image_id": "fdca619e-0e7f9273",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.4364
+    },
+    {
+      "image_id": "40d56a81-6a246010",
+      "weather": 5,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.1919
+    },
+    {
+      "image_id": "21ea664f-49a7a795",
+      "weather": 5,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.3686
+    },
+    {
+      "image_id": "714e3a05-b2008683",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.0911
+    },
+    {
+      "image_id": "4ddcbaad-47d3b80f",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.3142
+    },
+    {
+      "image_id": "26e95486-9b5788fa",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.5244
+    },
+    {
+      "image_id": "a5ffb322-db34b711",
+      "weather": 5,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 4.2493
+    },
+    {
+      "image_id": "4afe11a1-3ef33f3b",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.0041
+    },
+    {
+      "image_id": "1f4b8e7d-a12884e9",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 3.5378
+    },
+    {
+      "image_id": "723baf38-02c288d5",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 4.0924
+    },
+    {
+      "image_id": "5250cae5-4d6aeb8c",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.4357
+    },
+    {
+      "image_id": "9ce6c6e8-7b6f8183",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.4844
+    },
+    {
+      "image_id": "999dbb65-0a34c98c",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.1754
+    },
+    {
+      "image_id": "9dfcaca7-2f1a2dfe",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 4.5856
+    },
+    {
+      "image_id": "4962b0af-dcb406b1",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.8869
+    },
+    {
+      "image_id": "2bbe0227-5ddc1995",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.5072
+    },
+    {
+      "image_id": "5d379513-33633fd1",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.9075
+    },
+    {
+      "image_id": "3eda9a21-a06f8df5",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.0862
+    },
+    {
+      "image_id": "a7542d36-59025c8e",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.0642
+    },
+    {
+      "image_id": "9fd02acf-2982f8d8",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 3.583
+    },
+    {
+      "image_id": "8e720571-f649350e",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.1819
+    },
+    {
+      "image_id": "9dbd32ed-b6edbcbb",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.0897
+    },
+    {
+      "image_id": "542f0851-f1a56a53",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 4.1848
+    },
+    {
+      "image_id": "7b7195a8-5866c244",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 1,
+      "s1_score": 2.944
+    },
+    {
+      "image_id": "8f63216d-12e0423f",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.5078
+    },
+    {
+      "image_id": "1caf91f0-ef1835eb",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 5.5332
+    },
+    {
+      "image_id": "55752dc8-ccfaa86b",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.5227
+    },
+    {
+      "image_id": "528f2be0-3d6cd5b9",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.4009
+    },
+    {
+      "image_id": "22442774-d4e52b18",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.7895
+    },
+    {
+      "image_id": "7770229f-0073197c",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.3727
+    },
+    {
+      "image_id": "9e90ea3d-8717ecba",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.6851
+    },
+    {
+      "image_id": "01fa5cc7-c41fe747",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.4175
+    },
+    {
+      "image_id": "88a20e96-a613c7b2",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.1698
+    },
+    {
+      "image_id": "9d6126d8-ba4c916b",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 4.165
+    },
+    {
+      "image_id": "9c54a254-e72f169b",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 3.1181
+    },
+    {
+      "image_id": "ac15d7d0-ace372a6",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.9088
+    },
+    {
+      "image_id": "101c9c8b-738ae7ec",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.2126
+    },
+    {
+      "image_id": "59d4ee90-425a5395",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.3559
+    },
+    {
+      "image_id": "4a86612e-d022ba20",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 1,
+      "s1_score": 1.9993
+    },
+    {
+      "image_id": "8927942d-69322886",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 1,
+      "s1_score": 2.0064
+    },
+    {
+      "image_id": "00391a82-8be5b76d",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 5.2415
+    },
+    {
+      "image_id": "3627e147-a4f9350d",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.626
+    },
+    {
+      "image_id": "5cbea93a-ad57708b",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 5.6945
+    },
+    {
+      "image_id": "958fa077-6ccf7fdf",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.7064
+    },
+    {
+      "image_id": "08c0f170-382c29db",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 1.9814
+    },
+    {
+      "image_id": "7f496767-033368b8",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 6.4945
+    },
+    {
+      "image_id": "0965f189-557b389b",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.3733
+    },
+    {
+      "image_id": "228da57b-7a2981a7",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.4958
+    },
+    {
+      "image_id": "2f7848b9-045e73d3",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.4644
+    },
+    {
+      "image_id": "168d16ae-3aa42c4a",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 1,
+      "s1_score": 3.1377
+    },
+    {
+      "image_id": "9f68b0a6-0f8ab4c0",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.4647
+    },
+    {
+      "image_id": "ad22a2a2-5acaee34",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.6778
+    },
+    {
+      "image_id": "796ac6da-7c0b98d0",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.5294
+    },
+    {
+      "image_id": "82a92673-f055d36a",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.4479
+    },
+    {
+      "image_id": "33751257-da99637b",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.1637
+    },
+    {
+      "image_id": "9f5b2b23-970a4ebe",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 1,
+      "s1_score": 3.0601
+    },
+    {
+      "image_id": "94796170-71943e87",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.6849
+    },
+    {
+      "image_id": "565d82d9-e58568e2",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 1,
+      "s1_score": 1.9923
+    },
+    {
+      "image_id": "2c691209-c9357d4a",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.2603
+    },
+    {
+      "image_id": "475a4732-7fd6ed1d",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.1958
+    },
+    {
+      "image_id": "1c73412f-bc38ec98",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.8982
+    },
+    {
+      "image_id": "b11d3a0d-a281dca6",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.3423
+    },
+    {
+      "image_id": "4ef407cc-87b5bc02",
+      "weather": 5,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.4954
+    },
+    {
+      "image_id": "399948c9-7250751c",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.1496
+    },
+    {
+      "image_id": "4bcb7188-fa254c46",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.2955
+    },
+    {
+      "image_id": "18fdcfa4-06b85374",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.5373
+    },
+    {
+      "image_id": "2e656ddd-9f687a62",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 1.9684
+    },
+    {
+      "image_id": "8e9d65ac-7f6af35f",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.5459
+    },
+    {
+      "image_id": "45750769-67be163b",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.4703
+    },
+    {
+      "image_id": "0815eeff-e8d9f434",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 1.9782
+    },
+    {
+      "image_id": "6ce727b7-8d886fc5",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.7167
+    },
+    {
+      "image_id": "96009a72-942495b7",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.0407
+    },
+    {
+      "image_id": "724ed3c5-a0f0504b",
+      "weather": 5,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 3.6454
+    },
+    {
+      "image_id": "29e54439-74b42f4f",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.3771
+    },
+    {
+      "image_id": "7734d534-603ce2fa",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.382
+    },
+    {
+      "image_id": "43947405-07594326",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.0405
+    },
+    {
+      "image_id": "3995c3a5-62f34a03",
+      "weather": 5,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 6.4851
+    },
+    {
+      "image_id": "a789ebc2-d25ff11c",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.4568
+    },
+    {
+      "image_id": "8d62a6ae-ae92a2e9",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.4174
+    },
+    {
+      "image_id": "648cfcff-970fb77c",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 3.2496
+    },
+    {
+      "image_id": "71fee178-0e2e56c9",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.6621
+    },
+    {
+      "image_id": "9a0ed8b9-5d950331",
+      "weather": 5,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.0613
+    },
+    {
+      "image_id": "a859a091-993cdd20",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.9502
+    },
+    {
+      "image_id": "0a3b8cdc-1118548c",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 3.2901
+    },
+    {
+      "image_id": "24559616-7aad3da3",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.0783
+    },
+    {
+      "image_id": "9fb1582d-7326109f",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.8502
+    },
+    {
+      "image_id": "a43234f1-ef56d2d3",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.4045
+    },
+    {
+      "image_id": "1bf63d58-1e0188d8",
+      "weather": 5,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.3856
+    },
+    {
+      "image_id": "31df2524-1623f223",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.4239
+    },
+    {
+      "image_id": "6035dbb6-43beef90",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 3.9572
+    },
+    {
+      "image_id": "91a4614d-98393adf",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.257
+    },
+    {
+      "image_id": "738a2bcd-d6e01ddf",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.3087
+    },
+    {
+      "image_id": "51067bd4-4f69307a",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.1491
+    },
+    {
+      "image_id": "78f5ea10-2dc300d8",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 5.0544
+    },
+    {
+      "image_id": "8db7b720-c88efb2c",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.1968
+    },
+    {
+      "image_id": "b1037b5b-0497968a",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 4.7074
+    },
+    {
+      "image_id": "137a0efc-93435d06",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.2261
+    },
+    {
+      "image_id": "7dbd0048-8b582d83",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 5.581
+    },
+    {
+      "image_id": "07e49e2a-08324f2c",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 1,
+      "s1_score": 3.5155
+    },
+    {
+      "image_id": "31c6e31c-b6e497af",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.6245
+    },
+    {
+      "image_id": "40b747a5-4640eb0b",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.6646
+    },
+    {
+      "image_id": "419ad787-18d2b137",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 1.9976
+    },
+    {
+      "image_id": "6da40aeb-4112df50",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.542
+    },
+    {
+      "image_id": "33f52e5f-d16ec648",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.716
+    },
+    {
+      "image_id": "123736fc-8c89cd08",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.289
+    },
+    {
+      "image_id": "2c02054a-465a0499",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.682
+    },
+    {
+      "image_id": "73b37c24-a864575b",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 4.91
+    },
+    {
+      "image_id": "2d89f625-e2456491",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 4.2102
+    },
+    {
+      "image_id": "88c7eb20-fe46df80",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.4214
+    },
+    {
+      "image_id": "350334d0-f2110e3a",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.7247
+    },
+    {
+      "image_id": "70b50d46-4cae0b8b",
+      "weather": 5,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.7311
+    },
+    {
+      "image_id": "3f6f9965-0d040ecf",
+      "weather": 5,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.7177
+    },
+    {
+      "image_id": "b0674bdf-6f677a66",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.7948
+    },
+    {
+      "image_id": "0000f77c-62c2a288",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.4321
+    },
+    {
+      "image_id": "032164cf-4cfe9875",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.8733
+    },
+    {
+      "image_id": "021c4a16-f4d18785",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.2669
+    },
+    {
+      "image_id": "a381a874-721c835a",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.3979
+    },
+    {
+      "image_id": "53c752db-5648ae21",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.3727
+    },
+    {
+      "image_id": "1f59dc01-ac8d1e79",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.2042
+    },
+    {
+      "image_id": "952ae034-b3ac41a6",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.1259
+    },
+    {
+      "image_id": "6cadf007-a90f03a5",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 1,
+      "s1_score": 2.5133
+    },
+    {
+      "image_id": "76a16c68-36f0359f",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.8088
+    },
+    {
+      "image_id": "aee75a65-ed291301",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.3289
+    },
+    {
+      "image_id": "8e869aba-80fe00e7",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 1.999
+    },
+    {
+      "image_id": "64274a11-8051dc08",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.3025
+    },
+    {
+      "image_id": "96c1338d-53d386e8",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.8984
+    },
+    {
+      "image_id": "5b5acd77-4fc2aa18",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.217
+    },
+    {
+      "image_id": "0c86d1c5-5daba15f",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.099
+    },
+    {
+      "image_id": "5f404ede-daa3da7c",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.9066
+    },
+    {
+      "image_id": "a4ce8afe-d962c20a",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 4.2111
+    },
+    {
+      "image_id": "3f96729a-abe48195",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.5202
+    },
+    {
+      "image_id": "60e6a464-667d421d",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 3.0242
+    },
+    {
+      "image_id": "1ac85474-a0eda384",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.2226
+    },
+    {
+      "image_id": "7c4a750f-95a47741",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 1,
+      "s1_score": 1.9996
+    },
+    {
+      "image_id": "115d9e12-ff1330f3",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.0273
+    },
+    {
+      "image_id": "07a3c8b9-1e5a432f",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 5.0563
+    },
+    {
+      "image_id": "4844b08d-8d9e230c",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.6941
+    },
+    {
+      "image_id": "6c1b2672-1deb8c11",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.5639
+    },
+    {
+      "image_id": "2a0f85b7-a7a1f134",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.1758
+    },
+    {
+      "image_id": "7a9d6ddb-d28b6f6a",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.0149
+    },
+    {
+      "image_id": "8a5a6eb0-ea052897",
+      "weather": 5,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.1436
+    },
+    {
+      "image_id": "8e720571-e291e830",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 3.8013
+    },
+    {
+      "image_id": "47889296-38db403f",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.183
+    },
+    {
+      "image_id": "24cef2ba-59945f22",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 4.2664
+    },
+    {
+      "image_id": "3539c279-6529f6bd",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.195
+    },
+    {
+      "image_id": "2106a66a-13c8502e",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.5468
+    },
+    {
+      "image_id": "24ab8d83-53b3d1b9",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 4.971
+    },
+    {
+      "image_id": "5c35cca3-9a66257e",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.2442
+    },
+    {
+      "image_id": "66337f4c-6bf6ba69",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 5.4414
+    },
+    {
+      "image_id": "510671e9-40fe8fdc",
+      "weather": 5,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.2454
+    },
+    {
+      "image_id": "15f3d7e1-85cf2263",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.2112
+    },
+    {
+      "image_id": "2dc27187-d86e6732",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.5751
+    },
+    {
+      "image_id": "30c5b651-ac33bac8",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.104
+    },
+    {
+      "image_id": "1934af51-bb8cf269",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.932
+    },
+    {
+      "image_id": "6c22fca9-5decd823",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.7622
+    },
+    {
+      "image_id": "6bb96996-6e79c0cd",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.3091
+    },
+    {
+      "image_id": "85dcc99e-c3bbdd3e",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.4192
+    },
+    {
+      "image_id": "5de4c788-1c046172",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.4149
+    },
+    {
+      "image_id": "773c53f2-484fd263",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.2858
+    },
+    {
+      "image_id": "a1140112-87d3c172",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.3561
+    },
+    {
+      "image_id": "58538d31-560959f7",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.81
+    },
+    {
+      "image_id": "69e3b9ce-9abe7df3",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.129
+    },
+    {
+      "image_id": "28f04d20-7c67c326",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.7791
+    },
+    {
+      "image_id": "9786a4a5-78a0b62d",
+      "weather": 5,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.4381
+    },
+    {
+      "image_id": "9041da01-5fba9c55",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.9811
+    },
+    {
+      "image_id": "92c5f54d-56ba4dc9",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 3.4316
+    },
+    {
+      "image_id": "969aea32-f4d892e6",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.0787
+    },
+    {
+      "image_id": "7481b347-0793df90",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.0389
+    },
+    {
+      "image_id": "9d9ad1ab-d4970a7e",
+      "weather": 5,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.0635
+    },
+    {
+      "image_id": "2b217f9f-ec3a4a64",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.8294
+    },
+    {
+      "image_id": "414b18d6-5ba4ad87",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.7095
+    },
+    {
+      "image_id": "1dcbf95d-b80a4d13",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.745
+    },
+    {
+      "image_id": "81316285-cb00b589",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 1,
+      "s1_score": 2.0838
+    },
+    {
+      "image_id": "a5a2f787-eff8d2d6",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 1,
+      "s1_score": 2.5016
+    },
+    {
+      "image_id": "99114ac4-bb2ce066",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 6.8848
+    },
+    {
+      "image_id": "73f91726-106f6324",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.8052
+    },
+    {
+      "image_id": "0e1feef0-8aeb43d9",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.0401
+    },
+    {
+      "image_id": "2eed00aa-296f99d9",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.0644
+    },
+    {
+      "image_id": "a6007cd7-ba465142",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 2.3476
+    },
+    {
+      "image_id": "633842f3-3d47b944",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.3935
+    },
+    {
+      "image_id": "7076a6f8-8e104a76",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.716
+    },
+    {
+      "image_id": "1e957b3e-c9d0d292",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 2.4616
+    },
+    {
+      "image_id": "9c74eeb8-1aa96158",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 3.7403
+    },
+    {
+      "image_id": "0c4488d8-b9f4087a",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 2.8361
+    },
+    {
+      "image_id": "4ccf59fe-2cdfa225",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 5.0558
+    },
+    {
+      "image_id": "14859690-5c35db0c",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.7753
+    },
+    {
+      "image_id": "8170b29e-3ef223b4",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 1.9848
+    },
+    {
+      "image_id": "57fd312c-7f778d0e",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.7388
+    },
+    {
+      "image_id": "8da172cf-577329d4",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.8572
+    },
+    {
+      "image_id": "a5f49541-7b80de7a",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "s1_score": 3.5764
+    },
+    {
+      "image_id": "9acfbcd3-f5b080b5",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.546
+    },
+    {
+      "image_id": "6e1ab01e-adc3ae59",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 3.1685
+    },
+    {
+      "image_id": "64451ee1-eaa0fb8f",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 6.803
+    },
+    {
+      "image_id": "0b4c8138-adfdfb43",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 2.5053
+    },
+    {
+      "image_id": "83334ad9-9100f22a",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 4.2782
+    },
+    {
+      "image_id": "58c2aaf0-262b2e4b",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 2,
+      "s1_score": 4.5798
+    },
+    {
+      "image_id": "705a2450-293b37fb",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "s1_score": 3.6301
+    },
+    {
+      "image_id": "a79d4bf6-579a114c",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 2,
+      "s1_score": 4.5428
+    },
+    {
+      "image_id": "8f7dd26d-9857bb3f",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.4149
+    },
+    {
+      "image_id": "53239d19-14a87ae3",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.3104
+    },
+    {
+      "image_id": "0877376c-dc2a22e3",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 2,
+      "s1_score": 5.9035
+    },
+    {
+      "image_id": "24379e6d-71c66a5a",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "s1_score": 2.283
+    },
+    {
+      "image_id": "64403f07-782dc5c0",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "s1_score": 2.9606
+    }
+  ]
+}
